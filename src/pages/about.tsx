@@ -1,10 +1,9 @@
 /* eslint-disable import/no-extraneous-dependencies */
+import { useConfig } from "gatsby-theme-advanced";
 import * as React from "react";
 import { Helmet } from "react-helmet";
+import { Layout } from "../../themes/amaranth";
 
-import { useConfig } from "gatsby-theme-advanced";
-
-import {Layout} from "gatsby-theme-amaranth";
 
 const AboutPage = (): JSX.Element => {
   const config = useConfig();
